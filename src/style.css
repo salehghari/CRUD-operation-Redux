@@ -150,41 +150,7 @@ h1 > span::before {
   font-size: 32px;
   max-width: 280px;
 }
-@keyframes changeBGColor {
-  0% {
-    background-color: #b3bac9;
-  }
-  10% {
-    background-color: #b3c7c9;
-  }
-  20% {
-    background-color: #b3c9bd;
-  }
-  30% {
-    background-color: #bac9b3;
-  }
-  40% {
-    background-color: #c7c9b3;
-  }
-  50% {
-    background-color: #c9bdb3;
-  }
-  60% {
-    background-color: #c9b3b3;
-  }
-  70% {
-    background-color: #c9b3c4;
-  }
-  80% {
-    background-color: #c3b3c9;
-  }
-  90% {
-    background-color: #b9b3c9;
-  }
-  100% {
-    background-color: #b3bac9;
-  }
-}
+
 @media screen and (max-width: 768px) {
   .not-found-page h1 {
     font-size: 67px;
